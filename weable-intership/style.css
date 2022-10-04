@@ -209,7 +209,7 @@
         background-color: white;
         }
     .header .m-menu svg{
-        width: 35px;
+        width: 70px;
         height: 35px;
     }
     .header .m-menu .m-navlist{
@@ -234,6 +234,72 @@
             justify-content: center;
             align-items: center;
     }
+    
+     .header .m-menu .control .icon{
+        padding: 0.5rem 1rem;
+     }
+    .header .m-menu .control .icon #toggleClose {
+        margin-right: 0.5rem;
+     }
+    .header .m-menu .control .icon #toggleClose svg{
+        width: 30px;
+        height: 30px;
+    }
+    .header .m-menu .logoWrap #toggleOpen .img-wrap{
+        display: block;
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-size: cover;
+        margin-left: 8rem;
+    }
+    .header .m-menu .control .img-wrap{
+        display: block;
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-size: cover;
+       
+    }
+    .header .m-menu .logoWrap #toggleOpen{
+        display: flex;
+    }
+    .header .m-menu .logoWrap #toggleOpen .img-wrap img {
+        max-width: 25%;
+        height: auto;
+    }
+    .header .m-menu .control .img-wrap img{
+        max-width: 30%;
+    }
+     .header .m-menu ul li {
+         padding: 0 1.5rem;
+         list-style-type: none;
+    }
+    .header .m-menu ul li a {
+        display: block;
+        padding: 1rem 0;
+        color: #2d2d2d;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #e3e3e3;
+        text-decoration: none;
+    }
+     .header .m-menu .m-navlist.show {
+        left: 0;
+        opacity:1;
+     } 
+     .header .home-page{
+        background-color: #166441;
+     }
+     .header .home-page .contact{
+        list-style-type: none;
+        padding-top: 1rem;
+     }
+     .header .home-page .contact .item a{
+        text-decoration: none;
+        color: #fff;
+     }
     .w-gallery .service .content h2 {
         font-size: 1.5rem;
     }

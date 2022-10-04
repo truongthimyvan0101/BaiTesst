@@ -10,6 +10,6 @@ $(document).ready(function(){
     })
     $('.header .m-menu .overlay').on('click', function() {
         $('.header .m-menu .m-navlist').removeClass('show');
-        $('.hearder .m-menu .overlay').removeClass('show');
+        $('.header .m-menu .overlay').removeClass('show');
     })
-  });
+ });
