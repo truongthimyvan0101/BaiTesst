@@ -14,15 +14,3 @@ $(document).ready(function(){
     })
     
 });
-$(document).ready(function(){
-    $('.image-slider').slick({
-        slidesToShow: 3,
-        rows: 2,
-        slidesToScroll: 3,
-        prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-         nextArrow: '<button class="slide-arrow next-arrow"></button>',
-        arrows: true,
-        fade: true,
-        asNavFor: '.slider-nav'
-    });
-});
