@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/libs/icons-1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/libs/slick/slick.css">
+    <link rel="stylesheet" href="/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header pt-3">
+        <div class="introduce d-lg-flex d-none">
+            <ul class="list d-flex ">
+                <li class="item d-flex align-items-center mr-5">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p>anhvandev94@gmail.com</p>
+                </li>
+                <li class="item d-flex align-items-center">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>0968.475.789 - 0366.475.789</p>
+                </li>
+                <li class="item btn btn-search d-flex text-center"">
+                    <form class="search-box d-flex justify-content-between">
+                        <button ><i class="bi bi-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar d-lg-flex d-none justify-content-between">
+            <ul class="m-menu left list d-flex">
+                <li class="item mr-3 "><a class="navlink active" href="">TRANG CHỦ</a></li>
+                <li class="item mr-3"><a class="navlink" href="">ALBUM</a></li>
+                <li class="item mr-3"><a class="navlink" href="">BẢNG GIÁ</a></li>
+                <li class="item active mr-3"><a class="navlink" href="">KỶ YẾU MIỀN BẮC</a></li>
+            </ul>
+            <ul class="m-menu right list d-flex">
+                <li class="item mr-3"><a class="navlink" href="">DỊCH VỤ</a></li> 
+                <li class="item mr-3"><a class="navlink" href="">THUÊ TRANG PHỤC</a></li>                  
+                <li class="item mr-3"><a class="navlink" href="">GÓC TƯ VẤN</a></li>
+                <li class="item mr-3"><a class="navlink" href="">LIÊN HỆ</a></li>
+            </ul>       
+        </div>
+        <nav class="m-menu navbar d-lg-none d-flex align-items-center justify-content-between ">
+            <div class="logoWrap d-flex align-items-center ">
+                <div id="toggleOpen">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                    
+                </div>
+                <div class="m-navlist d-flex justify-content-between flex-column ">
+                    <div class="control">
+                        <div class="icon d-flex align-items-center">
+                            <div id="toggleClose">
+                                <div class="img-wrap">
+                                    <img class="img-fluid" src="/assest/images/image 33.png" alt="">
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </div>
+                            
+                        </div>
+                        <ul class="list-item p-3">
+                            <li class="navItem"><a href="" class="navLink">Trang chủ</a></li>
+                            <li class="navItem"><a href="" class="navLink">Album</a></li>
+                            <li class="navItem"><a href="" class="navLink">Bảng giá</a></li>
+                            <li class="navItem"><a href="" class="navLink">Kỷ yếu miền Bắc</a></li>
+                            <li class="navItem"><a href="" class="navLink">Dịch vụ</a></li>
+                            <li class="navItem"><a href="" class="navLink">Thuê trang phục</a></li>
+                            <li class="navItem"><a href="" class="navLink">Góc tư vấn</a></li>
+                            <li class="navItem"><a href="" class="navLink">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+            <div class="text">
+                <div class="img-wrap d-flex justify-content-center">
+                    <img class="img-fluid" src="/assest/images/image 33.png" alt="">
+                </div>
+            </div>
+            <li class="item btn btn-search d-flex text-center"">
+                <form class="search-box d-flex justify-content-between">
+                    <button ><i class="bi bi-search"></i></button>
+                </form>
+            </li>
+        </nav>
+        <div class="home-page d-lg-none d-flex">
+            <ul class="contact d-flex">
+                <li class="item mr-3 "><a class="navlink active" href="">Trang chủ</a></li>
+                <li class="item mr-3"><a class="navlink" href="">Liên hệ</a></li>
+                <li class="item mr-3"><a class="navlink" href="">Giới thiệu</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main mb-3">
+        <section class="w-banner">
+            <div class="bannerSlider">
+                <div class="slide position-relative">
+                    <div class="image d-lg-flex d-none justify-content-center position-absolute">
+                        <img class="img-fluid" src="./assest/images/image 33.png" alt="">
+                    </div>
+                    <div class="img-wrap">
+                        <img class="img-fluid" src="/assest/images/image 34 (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-gallery">
+            <div class="service">
+                <div class="container">
+                    <div class="row  justify-content-center">
+                        <div class="content text-center">
+                            <h2>DỊCH VỤ TẠI CỘNG STUDIO</h2>
+                            <P>Dịch vụ sản phẩm hoàn hảo với các gói chụp ảnh ấn tượng độc - lạ - đẹp và được lựa chọn nhiều nhất năm 2022</P>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Dịch vụ chụp ảnh</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Thiết kế, in photobook</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Thuê trang thục</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab1" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Trang điểm</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row image-slider">
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row image-slider">
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="row image-slider">
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="row image-slider">
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2 ">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                                <div class="col-12 p-2">
+                                    <a class="img-wrap" href="#">
+                                        <img class="img-fluid" src="https://source.unsplash.com/random/5" alt="">
+                                    </a>
+                                    <div class="overlay">
+                                        <h6 class="text-item">CHỤP ẢNH PHÓNG SỰ CƯỚI</h6>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hotline-phone-ring-wrap">
+                <div class="hotline-phone-ring">
+                 <div class="hotline-phone-ring-circle"></div>
+                 <div class="hotline-phone-ring-circle-fill"></div>
+                 <div class="hotline-phone-ring-img-circle"> <a href="#" class="pps-btn-img"> 
+                    <i class="bi bi-telephone-fill"></i>
+                </div>
+            </div>
+            <div class="zalo-ring">
+                <div class="zalo-circle"></div>
+                <div class="zalo-circle-fill"></div>
+                <div class="zalo-img-circle"> <a href="#" class="pps-btn-img">
+                     <img src="https://caohungphat.com/wp-content/uploads/2019/07/icon_zalomessage.png" alt="so dien thoai" width="50"> </a></div>
+               </div>
+        </section>
+    </div>
+    <div class="footer">
+        <section class="w-footer justify-content-center">
+            <div class="container">
+                <div class="image d-flex justify-content-between pt-5">
+                    <img class="img-fluid" src="./assest/images/image 35.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 py-5">
+                        <ul class="contact">
+                            <li class="phone text-center d-flex align-items-center">
+                                <i class="bi bi-telephone"></i>
+                                <a href="#">Bộ phận CSKH: 0968.475.789 - 0366.475.789 <br> Bộ phận kỹ thuật: 0395.475.789</a>
+                            </li>
+                           
+                            <li class="adress d-flex align-items-center">
+                                <i class="bi bi-geo-alt"></i>
+                                <a href="#">Địa chỉ: 303 Vũ Tông Phan, Thanh Xuân, Hà Nội</a>
+                            </li>
+                            <li class="mail d-flex align-items-center">
+                                <i class="bi bi-envelope"></i>
+                                <a href="#">anhvandev94@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <ul class="list">
+                            <li class="item">
+                                <a href="/">Chụp ảnh kỷ yếu</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Tour du lịch kỷ yếu</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Chụp ảnh phóng sự cưới</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <ul class="list">
+                            <li class="item">
+                                <a href="/">Chụp sự kiện</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Chụp ảnh profile</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Chụp ảnh nghệ thuật</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <ul class="list">
+                            <li class="item">
+                                <a href="/">Chụp sản phẩm</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Chụp ảnh thời trang</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Chụp theo yêu cầu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <ul class="list">
+                            <li class="item">
+                                <a href="/">Thuê trang phục</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Dịch phụ trang điểm</a>
+                            </li>
+                            <li class="item">
+                                <a href="/">Thiết kế,in photobook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 pt-5">
+                        <div class="creation  d-flex justify-content-between">
+                            <div class="left">
+                                <p>Copyright 
+                                    © <span id="displayYear"></span> CỘNG STUDIO. Thiết kế website bởi Uni Creation
+                                </p>
+                            </div>
+                            <div class="right">
+                                <ul class="list-social d-flex pl-3">
+                                    <li class="item-social">
+                                        <a href="">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item-social">
+                                        <a href="">
+                                            <i class="bi bi-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item-social">
+                                        <a href="">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item-social">
+                                        <a href="">
+                                            <i class="bi bi-tiktok"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item-social">
+                                        <a href="">
+                                            <i class="bi bi-behance"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/libs/jquery-3.6.0.min.js"></script>
+    <script src="/libs/jquery.animateTyping.js"></script>
+    <script src="/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/libs/slick/slick.min.js"></script>
+    <script src="./assest/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+/* Css header */
+@font-face {
+    font-family: Averta;
+    src: url(/assest/fonts/Averta-Semibold.otf);
+  }
+.header .introduce{
+    justify-content: flex-end;
+}
+.header .introduce .list .item i,
+.header .introduce .list .item p{
+    color: #166441;
+    margin: 0;
+}
+.header .introduce .list .item i{
+    padding-right: 0.5rem;
+} 
+.header .introduce .list  .item button{
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid #166441;
+    background-color: white;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.header .introduce .list  .item i{
+    padding:0.5rem;
+}
+
+.header .navbar{
+    justify-content: space-around;
+}
+.header .navbar .list li{
+    list-style-type: none;
+    
+}
+.header .navbar .list li a{
+    text-decoration: none;
+    color: #166441;
+    font-weight: 600;
+}
+.header .navbar .left{
+    margin-left: 13rem;
+}
+.header .navbar .right{
+    margin-right: 13rem;
+}
+/* css banner */
+.w-banner .bannerSlider .slide .image{
+    left: 50%;
+    top: -17%;
+    transform: translateX(-46%);
+    height: 25vh;
+    width: 27vh;
+    border-radius: 50%;
+    background-color: white;
+   
+}
+.w-banner .bannerSlider .slide .image img{
+    max-width: 70%;
+    height: 85%;
+}
+/* css w-gallery */
+/* Css phone và zalo */
+.hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 50px;
+    z-index: 1;
+}
+.hotline-phone-ring {
+    position: relative;
+    width: 110px;
+    height: 110px;
+   
+}
+.hotline-phone-ring-circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid #309c6c;
+    opacity: .5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hotline-phone-ring-circle-fill {
+    width: 50px;
+    height: 50px;
+    top: 55px;
+    left: 55px;
+    position: absolute;
+    background-color: #309c6c;
+    border-radius: 100%;
+    transform: translate(-50%,-50%);
+}
+.hotline-phone-ring-img-circle {
+    background-color: #309c6c;
+    width: 33px;
+    height: 33px;
+    top: 38px;
+    left: 38px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+   -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hotline-phone-ring-img-circle i{
+    color: #fff;
+}
+/* //zalo */
+.zalo-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+.zalo-circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid #309c6c;
+    opacity: .5;
+    top: 50%;
+    left: 49.5%;
+    transform: translate(-50%,-50%);
+}
+.zalo-circle-fill {
+    width: 50px;
+    height: 50px;
+    top: 55px;
+    left: 54px;
+    position: absolute;
+    background-color: #309c6c;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    transform: translate(-50%,-50%);;
+}
+.zalo-img-circle {
+    background-color: #309c6c;
+    width: 33px;
+    height: 33px;
+    top: 38px;
+    left: 38px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+   -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zalo-img-circle a.pps-btn-img img {
+    width: 100%;
+}
+/* End phone và zalo */
+.w-gallery .service .content{
+    margin: 2rem 0;
+}
+.w-gallery .service .content h2{
+    color: #166441;
+}
+.w-gallery .service .content p {
+    color: #667085;
+    margin: 0 auto;
+    max-width: 66%;
+}
+.w-gallery .service .nav{
+    display: flex;
+    justify-content: center;
+}
+.w-gallery .service .nav .nav-item .nav-link p{
+    max-width: 100%;
+}
+.w-gallery .service ul li button{
+    background-color: transparent;
+}
+.w-gallery .service .nav-tabs {
+    border-bottom: none;
+}
+.w-gallery .service .nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 0px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.w-gallery .service .nav-tabs .nav-item.show .nav-link, .w-gallery .service .nav-tabs .nav-link.active {
+    color: black;
+    background-color: #fff;
+}
+.w-gallery .service .nav-tabs .nav-link.active{
+    color: #166441;
+    border-bottom: 2px solid #166441;
+}
+.w-gallery .service .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    isolation: isolate;
+    border-color: white;
+}
+.w-gallery .service .tab-content .tab-pane .img-wrap{
+    display: block;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 80.25%;
+}
+.w-gallery .service .tab-content .tab-pane .img-wrap:hover .tab-pane .text-item{
+    background-color: #166441;
+}
+.w-gallery .service .tab-content .tab-pane .img-wrap img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-position: 50% 50%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.w-gallery .service .tab-content .tab-pane .overlay {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    background: linear-gradient(to top, #166A43 5.73%, rgba(0, 155, 0, 0.552448) 69.89%, rgba(0, 155, 0, 0) 100%);
+    text-align: left;
+    height: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: .5s ease;
+}
+.w-gallery .service .tab-content .tab-pane .overlay {
+    height: calc(50% - 1.5rem);
+}
+.w-gallery .service .tab-content .tab-pane .text-item{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-60% -25%);
+    color: #FFFFFF;
+    
+}
+/* CSS footer */
+.w-footer{
+    height: auto;
+    width: 100%;
+    border-radius: 70px 70px 0px 0px;
+    background-color: #166441;
+}
+.w-footer .image{
+    height: 20vh;
+    width: 25vh;
+    margin: 0 auto;
+   
+}
+.w-footer .image img{
+    max-width: 100%;
+    height: auto;
+}
+.w-footer .contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+.w-footer .contact li{
+   display: flex !important;
+   flex-direction: column;
+   }
+.w-footer .contact i{
+    color: #fff;
+    padding-bottom: 0.5rem;
+    
+}
+.w-footer .contact a {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+.w-footer .list .item{
+    list-style-type: none;
+}
+.w-footer .list .item a{
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+.w-footer .creation{
+    border-top: 1px solid #fff;
+}
+.w-footer .creation .left p{
+    margin-left: 2.5rem;
+    color: #fff;
+}
+.w-footer .creation .right  .list-social{
+    list-style-type: none;
+}
+.w-footer .creation .right  .list-social .item-social a {
+    display: block;
+}
+.w-footer .creation .right  .list-social .item-social .bi {
+    font-size: 30px;
+    letter-spacing: 25px;
+    color: white;
+    margin-right: 0.5rem;
+}
+/* Css mobile */
+@media(max-width: 541px){
+    .header .m-menu {
+        padding: 1rem;
+        background-color: white;
+        }
+    .header .m-menu svg{
+        width: 70px;
+        height: 35px;
+    }
+    .header .m-menu .m-navlist{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        /* right: 100%; */
+        left: 100%;
+        background-color: white;
+        z-index: 99999;
+        height: 100%;
+        width: 70%;
+        transition: .2s ease;
+    }
+    .header .m-menu .item{
+            justify-content: flex-end;
+    }
+    .header .m-menu .item button{
+            border-radius: 7px;
+            border: 2px solid #166441;
+            background-color: white;
+            padding: 1;
+            justify-content: center;
+            align-items: center;
+    }
+    
+     .header .m-menu .control .icon{
+        padding: 0.5rem 1rem;
+     }
+    .header .m-menu .control .icon #toggleClose {
+        margin-right: 0.5rem;
+        display: flex;
+        align-items: center;
+     }
+    .header .m-menu .control .icon #toggleClose svg{
+        width: 40%;
+        height: 40%;
+    }
+    .header .m-menu .text .img-wrap{
+        /* display: block; */
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-size: cover;
+        /* margin-left: 6rem; */
+    }
+    .header .m-menu .control .img-wrap{
+        display: block;
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-size: cover;
+       
+    }
+    .header .m-menu  .img-wrap img {
+        max-width: 25%;
+        height: auto;
+    }
+    .header .m-menu .control .img-wrap img{
+        max-width: 30%;
+    }
+     .header .m-menu ul li {
+         list-style-type: none;
+    }
+    .header .m-menu ul li a {
+        display: block;
+        padding: 1rem 0;
+        color: #2d2d2d;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #e3e3e3;
+        text-decoration: none;
+    }
+     .header .m-menu .m-navlist.show {
+        left: 30%;
+        opacity:1;
+     } 
+     .header .home-page{
+        background-color: #166441;
+     }
+     .header .home-page .contact{
+        list-style-type: none;
+        padding-top: 1rem;
+     }
+     .header .home-page .contact .item a{
+        text-decoration: none;
+        color: #fff;
+     }
+     .w-gallery .service .nav{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .w-gallery .service .nav-tabs .nav-item #contact-tab{
+        margin-right: 0.5rem;
+    }
+    .w-gallery .service .content h2 {
+        font-size: 1.5rem;
+    }
+    .w-gallery .service .content p {
+        max-width: 81%;
+    }
+    .w-gallery .service .tab-content .tab-pane .text-item {
+        position: absolute;
+        left: 10%;
+        font-size: 0.7rem;
+    }
+    .w-footer .contact{
+        display: block;
+    }
+    .w-footer .creation{
+        flex-direction: column;
+    }
+    .w-footer .creation .right  .list-social{
+       display: flex;
+       justify-content: center;
+    }
+    .w-banner .bannerSlider .slide .image {
+        left: 50%;
+        top: -70%;
+    }
+}
