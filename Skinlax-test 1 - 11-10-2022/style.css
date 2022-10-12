@@ -1,0 +1,254 @@
+#head .header{
+    background-color: black;
+}
+#head .header .on-top{
+    padding: 0 2rem;
+}
+#head .header .on-top .social i,
+#head .header .on-top .free-ship i{
+    color: #ffff;
+}
+#head .header .on-top .free-ship p,
+#head .header .on-top .phone{
+    color: #ffff;
+}  
+#head .nav .navbar-expand-lg .navbar-nav .nav-link{
+    color: black;
+}
+#head .nav .navbar-expand-lg .navbar-nav .active{
+    font-weight: 500;
+}
+#head .nav .name-shop{
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 13rem;
+}
+#head .nav .social a{
+    color: black;
+}
+#head .nav .social i{
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+#head .nav .social .item{
+    position: relative;
+}
+#head .nav .social .item span{
+    position: absolute;
+    background-color: coral;
+    padding: 0 0.3rem;
+    border-radius: 35px;
+    text-decoration: none;
+    top: 50%;
+    left: 35%;
+    font-size: 0.6rem;
+}
+#head .banner .carousel .carousel-inner .img-wrap {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 39.25%;
+}
+#head .banner .carousel .carousel-inner .img-wrap img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+#head .banner .carousel .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 0.5rem;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+#head .banner .carousel .carousel-indicators .active {
+    opacity: 1;
+}
+#head .banner .carousel .carousel-indicators .carousel-control-prev{
+    left: 39%;
+}
+#head .banner .carousel .carousel-indicators .carousel-control-next{
+    right: 38.5%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 12px;
+    height: 20px;
+}
+@media(max-width: 541px){
+    #head .header .on-top{
+        padding: 0 0;
+    }
+    #head .header .on-top .free-ship{
+        display: none !important;
+    }
+    #head .nav .menu .menu-open i{
+        font-size: 2rem;
+    }
+    #head .banner .carousel .carousel-inner .img-wrap{
+        padding-top: 52.25%;
+    }
+    #head .banner .carousel .carousel-indicators .carousel-control-prev{
+        left: 28%;
+    }
+    #head .banner .carousel .carousel-indicators .carousel-control-next{
+        right: 27%;
+    }
+    #head .nav .name-shop {
+        margin-right: 0rem;
+    }
+    /* ---css d-lg-none d-flex */
+    #head .menu-nav{
+        padding: 0.5rem 1rem;
+    }
+    #head .name-shop{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 0rem;
+}
+    #head .social a{
+        color: black;
+    }
+    #head .social i{
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+    }
+    #head .social .item{
+        position: relative;
+    }
+    #head .social .item span{
+        position: absolute;
+        background-color: coral;
+        padding: 0 0.3rem;
+        border-radius: 35px;
+        text-decoration: none;
+        top: 50%;
+        left: 35%;
+        font-size: 0.6rem;
+    }
+    #head .social .list-item{
+        position: absolute;
+        height: 100%;
+        left: 0;
+        width: 100% !important;
+        background-color: white;
+        z-index: 999;
+        display: none;
+        top: 13%;
+      }
+      #head .social .list-item .item-social:not(.search){
+        list-style-type: none;
+        border-bottom: 1px solid rgb(88, 84, 84);
+      }
+      #head .social .list-item .item-social a{
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+      #head .social .list-item .nav-item .dropdown-menu{
+        position: absolute;
+        transform: translate3d(5px, 61px, 0px);
+        top: 0px;
+        left: 42% !important;
+        will-change: transform;
+        }
+    
+      #head .social .list-item .nav-item .dropdown-toggle::after {
+        margin-left: 17rem !important;
+        }
+      #head .social .list-item{
+        overflow: hidden;
+      }
+      #head .social .list-item .show{
+        display: block;
+      }
+      #head .social .list-item .search form{
+        border: 1px solid var(--text-color);
+        width: 100%;
+      }
+      #head .social .list-item .search{
+        padding: 1rem 1.5rem;
+        margin-top: 3rem;
+      }
+      #head .social .list-item .search form input{
+        border: none;
+        padding: 0.5rem;
+        width: 80%;
+        font-size: 1.2rem;
+      }
+      #head .social .list-item .search form button {
+        border: none;
+        padding: 0.5rem;
+        background-color: unset;
+        width: 20%;
+      }
+      #head .social .list-item .search form button i:before {
+        font-size: 1.3rem;
+      }
+   
+      #head .social .list-item li a{
+        padding: 1rem 1.5rem;
+        color: black;
+        font-weight: bold;
+        display: block;
+      }
+      #head .social .list-item li a.login{
+        color: var(--text-color);
+        font-weight: normal;
+      }
+      /* --- */
+      .menu {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .menu .menu-bar1,
+    .menu .menu-bar3 {
+        width: 30px;
+        height: 2px;
+        background-color: #212529;
+        transition: 0.4s;
+        margin: 0.6rem 0;
+    }
+    .menu .menu-bar2 {
+        width: 20px;
+        height: 2px;
+        background-color: #212529;
+    }
+    .menu.active .menu-bar1 {
+        transform: rotate(-45deg) translate(-0.5em, 0.6em);
+        margin: 1.3rem 0;
+    }
+    .menu.active .menu-bar2 {
+        display: none;
+    }
+    .menu.active .menu-bar3 {
+        margin: 1.3rem 0;
+        transform: rotate(45deg) translate(-0.46em, -0.6em);
+    }
+}
